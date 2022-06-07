@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="in.co.gorest.userinfo.UserCURDTestWithSteps" skipped="0" tests="4" time="10.57" timestamp="2022-06-07T11:12:49.695+01:00[Europe/London]"><testcase classname="in.co.gorest.userinfo.UserCURDTestWithSteps" name="This will create a new user"/><testcase classname="in.co.gorest.userinfo.UserCURDTestWithSteps" name="Verify if the user was added to the application for name=Himadri Kocchar"/><testcase classname="in.co.gorest.userinfo.UserCURDTestWithSteps" name="Update the user information and verify the updated information for ID=3866"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.userinfo.UserCURDTestWithSteps.test003(UserCURDTestWithSteps.java:52)&#13;
+</system-err></testcase><testcase classname="in.co.gorest.userinfo.UserCURDTestWithSteps" name="Delete the user and verify if the user is deleted! for ID=3868"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.userinfo.UserCURDTestWithSteps.test004(UserCURDTestWithSteps.java:59)&#13;
+</system-err></testcase></testsuite>
